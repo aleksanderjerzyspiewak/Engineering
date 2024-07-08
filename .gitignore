@@ -1,2 +1,21 @@
 # katalog plików tymczasowych
 tmp/
+
+# Ignoruj wszystkie pliki w katalogu Dissertation
+Dissertation/*
+
+# Wyjątki: nie ignoruj plików
+!Dissertation/**/*.pdf
+!Dissertation/**/*.tex
+!Dissertation/**/*.jpg
+!Dissertation/**/
+
+# Ignoruj specyficzne pliki tymczasowe LaTeX
+Dissertation/**/*.aux
+Dissertation/**/*.bbl
+Dissertation/**/*.bcf
+Dissertation/**/*.blg
+Dissertation/**/*.log
+Dissertation/**/*.out
+Dissertation/**/*.run.xml
+Dissertation/**/*.synctex.gz
